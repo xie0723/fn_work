@@ -5,55 +5,98 @@ import os
 from configparser import ConfigParser
 
 
-# 装饰器，实现账号使用10次后更换下一个
-def mark_users_number(func):
-	def wrapper(self):
-		usernames, psws, paypsws = func(self)
-		if usernames == 'autotest1@autotest.com':
-			yield usernames, psws, paypsws
+# 装饰器，实现账号使用N 次后更换下一个账号
+def mark_info(func):
+	def wrapper(filepath):
+		usersINFO, cfg = func(filepath)
+		mark_numb = int(cfg.get('mark_numb', 'counts'))
+		mark_line = int(cfg.get('mark_line', 'line'))
+		total_user = len(usersINFO)
+		if mark_line < total_user-1:
+			if mark_numb >= 2:
+				cfg.set("mark_numb", "counts", str(1))
+				cfg.set("mark_line", "line", str(mark_line + 1))
+				with open(filepath, 'w+') as fp:
+					cfg.write(fp)
+				mark_line = int(cfg.get('mark_line', 'line'))
+				return usersINFO[mark_line][-1].split(',')
+			if mark_numb < 2:
+				cfg.set("mark_numb", "counts", str(mark_numb + 1))
+				with open(filepath, 'w+') as fp:
+					cfg.write(fp)
+				return usersINFO[mark_line][-1].split(',')
+			else:
+				return None
+		if mark_line == total_user-1:
+			cfg.set("mark_line", "line", str(0))
+			cfg.set("mark_numb", "counts", str(0))
+			with open(filepath, 'w+') as fp:
+				cfg.write(fp)
+			return usersINFO[total_user-1][-1].split(',')
 		else:
-			for i in range(len(usernames)):
-				mark = 0
-				while mark < 3:
-					mark += 1
-					yield usernames[i], psws[i], paypsws[i]
+			return None
 	return wrapper
 
 
-class readUserInfo_(object):
+class readUserInfo(object):
 	def __init__(self):
-		self.cfg = ConfigParser()
+		pass
+
+	# self.cfg = ConfigParser()
 
 	@staticmethod
 	def is_conf_exist(CPath=None, user=None, psw=None, paypsw=None):
-		if CPath is None and user is None and psw is None and paypsw is None:
-			return 'ellen_001', 'xie0723'
-		if user is not None and psw is not None and paypsw is not None:
+		if user is not None:
 			return user, psw, paypsw
 		if CPath is not None:
 			if not os.path.isfile(CPath):
 				return '文件不存在：{}'.format(CPath)
-			return CPath, 1, 1
+			return CPath
+		if not (CPath and user and psw and paypsw):
+			return 'ellen_001', 'xie0723', 'xie0723'
 
-	def read_conf_info(self, filepath):
-		self.cfg.read(filepath)
+	@staticmethod
+	@mark_info
+	def read_conf_info(filepath):
+		cfg = ConfigParser()
+		cfg.read(filepath)
 		try:
-			usernames = self.cfg.get('userInfo', 'username').strip().split(',')
-			psws = self.cfg.get('userInfo', 'password').strip().split(',')
-			paypsws = self.cfg.get('userInfo', 'cardSecurePass').strip().split(',')
-			return usernames, psws, paypsws
+			return cfg.items('userInfo'), cfg
 		except Exception as e:
 			print(e)
 
 
-
-
-def aa(fp):
-	print (fp.read())
-
 ini_path = 'd:/coding/fn_work/fn_config.ini'
-readUserInfo_ = readUserInfo_()
-a, b, c = (readUserInfo_.is_conf_exist(ini_path))
-print (readUserInfo_.read_conf_info(a))
+readUserInfo_ = readUserInfo()
 
-print (a, b, c)
+# Test
+# 配置文件存在，返还配置文件路径
+# a, b, c = (readUserInfo_.is_conf_exist(ini_path))
+
+# 配置文件不存在，并且不传入user，psw，paypsw，返还默认的user，psw，paypsw
+# a, b, c = readUserInfo_.is_conf_exist()
+
+# 配置文件不存在，并且传入了user，psw，paypsw，返回传入的值
+# a, b, c = readUserInfo_.is_conf_exist(user='a', psw='b', paypsw='c')
+
+
+userINFO = readUserInfo_.read_conf_info(ini_path)
+# print(userINFO)
+# print (userINFO.next())
+# a, b, c = list((userINFO.next()))
+# print a, b, c
+
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
+# print (userINFO.next())
