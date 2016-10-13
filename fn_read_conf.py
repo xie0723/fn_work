@@ -42,7 +42,6 @@ class readUserInfo(object):
 	def __init__(self):
 		pass
 
-	# self.cfg = ConfigParser()
 
 	@staticmethod
 	def is_conf_exist(CPath=None, user=None, psw=None, paypsw=None):
@@ -86,17 +85,3 @@ userINFO = readUserInfo_.read_conf_info(ini_path)
 # a, b, c = list((userINFO.next()))
 # print a, b, c
 
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
-# print (userINFO.next())
