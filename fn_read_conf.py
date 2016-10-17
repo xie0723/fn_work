@@ -12,7 +12,7 @@ def mark_info(func):
 		mark_numb = int(cfg.get('mark_numb', 'counts'))
 		mark_line = int(cfg.get('mark_line', 'line'))
 		total_user = len(usersINFO)
-		if mark_line < total_user-1:
+		if mark_line < total_user - 1:
 			if mark_numb >= 2:
 				cfg.set("mark_numb", "counts", str(1))
 				cfg.set("mark_line", "line", str(mark_line + 1))
@@ -27,21 +27,21 @@ def mark_info(func):
 				return usersINFO[mark_line][-1].split(',')
 			else:
 				return None
-		if mark_line == total_user-1:
+		if mark_line == total_user - 1:
 			cfg.set("mark_line", "line", str(0))
 			cfg.set("mark_numb", "counts", str(0))
 			with open(filepath, 'w+') as fp:
 				cfg.write(fp)
-			return usersINFO[total_user-1][-1].split(',')
+			return usersINFO[total_user - 1][-1].split(',')
 		else:
 			return None
+
 	return wrapper
 
 
 class readUserInfo(object):
 	def __init__(self):
 		pass
-
 
 	@staticmethod
 	def is_conf_exist(CPath=None, user=None, psw=None, paypsw=None):
@@ -80,4 +80,3 @@ readUserInfo_ = readUserInfo()
 
 
 userINFO = readUserInfo_.read_conf_info(ini_path)
-
