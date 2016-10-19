@@ -80,3 +80,7 @@ readUserInfo_ = readUserInfo()
 
 
 userINFO = readUserInfo_.read_conf_info(ini_path)
+# print(userINFO)
+# print (userINFO.next())
+# a, b, c = list((userINFO.next()))
+# print a, b, c
