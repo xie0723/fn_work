@@ -5,7 +5,7 @@ __Date__ = '2016/9/23 8:20'
 import requests
 
 
-class Zentao(object):
+class zentaoWeekTask(object):
 	def __init__(self):
 		self.login_url = 'http://zentao.fn.com/index.php?m=user&f=login'
 		self.referer_url = 'http://zentao.fn.com/index.php?m=project&f=task&projectID=967'
@@ -29,7 +29,7 @@ class Zentao(object):
 		}
 
 		resp = self.session.post(url=self.login_url, data=data)
-		print (resp.text)
+		# print (resp.cookies['sid'])
 
 	def create_tasks(self):
 		content_disposition = {
@@ -50,16 +50,15 @@ class Zentao(object):
 			'Content-Disposition: form-data; name="type"': 'test',
 		}
 		self.session.get('http://zentao.fn.com/index.php?m=task&f=create&project=967')
-		self.session.get(
-			'http://zentao.fn.com/index.php?m=story&f=ajaxGetProjectStories&t=html&projectID=967&productID=0&moduleID=10707')
+
 		resp = self.session.post(url=self.create_tasks_url, data=content_disposition)
 		self.session.get('http://zentao.fn.com/index.php?m=project&f=browse&projectID=967&tab=task',
 		                 allow_redirects=True)
 		self.session.get('http://zentao.fn.com/index.php?m=project&f=task&projectID=967')
-		print (resp.json())
+		print (resp.text)
 
 
 if __name__ == '__main__':
-	lnzt = Zentao()
+	lnzt = zentaoWeekTask()
 	lnzt.login_zt()
 	lnzt.create_tasks()
