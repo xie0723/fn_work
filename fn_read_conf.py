@@ -40,19 +40,29 @@ def mark_info(func):
 
 
 class readUserInfo(object):
-	def __init__(self):
-		pass
+	# @staticmethod
+	# def is_conf_exist(CPath=None, user=None, psw=None, paypsw=None):
+	# 	if user is not None:
+	# 		return user, psw, paypsw
+	# 	if CPath is not None:
+	# 		if not os.path.isfile(CPath):
+	# 			return '文件不存在：{}'.format(CPath)
+	# 		return CPath
+	# 	if not (CPath and user and psw and paypsw):
+	# 		return 'ellen_001', 'xie0723', 'xie0723'
 
 	@staticmethod
 	def is_conf_exist(CPath=None, user=None, psw=None, paypsw=None):
-		if user is not None:
-			return user, psw, paypsw
-		if CPath is not None:
+		if CPath:
 			if not os.path.isfile(CPath):
 				return '文件不存在：{}'.format(CPath)
 			return CPath
-		if not (CPath and user and psw and paypsw):
-			return 'ellen_001', 'xie0723', 'xie0723'
+
+		if not CPath:
+			user = user or 'ellen_001'
+			psw = psw or 'xie0723'
+			paypsw = paypsw or 'xie0723'
+			return user, psw, paypsw
 
 	@staticmethod
 	@mark_info
@@ -70,17 +80,16 @@ readUserInfo_ = readUserInfo()
 
 # Test
 # 配置文件存在，返还配置文件路径
-# a, b, c = (readUserInfo_.is_conf_exist(ini_path))
+# a = (readUserInfo_.is_conf_exist(ini_path))
 
 # 配置文件不存在，并且不传入user，psw，paypsw，返还默认的user，psw，paypsw
 # a, b, c = readUserInfo_.is_conf_exist()
 
 # 配置文件不存在，并且传入了user，psw，paypsw，返回传入的值
-# a, b, c = readUserInfo_.is_conf_exist(user='a', psw='b', paypsw='c')
-
+a, b, c = readUserInfo_.is_conf_exist(user='a', psw='b', paypsw='c')
 
 userINFO = readUserInfo_.read_conf_info(ini_path)
 # print(userINFO)
 # print (userINFO.next())
 # a, b, c = list((userINFO.next()))
-# print a, b, c
+print (a, b, c)
