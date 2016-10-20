@@ -6,7 +6,8 @@ import requests
 
 url_login = 'http://zentao.fn.com/index.php?m=user&f=login'
 headers1 = {
-	'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+	'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)\
+	 Chrome/51.0.2704.103 Safari/537.36',
 	'X-Requested-With': 'XMLHttpRequest',
 }
 
