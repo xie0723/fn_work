@@ -24,6 +24,7 @@ def unbinding_fn_partner(url, proxy=None):
 
 
 # print(unbinding_fn_partner(url_preview))
+
 # -------------------------------------------------------------------------------------------
 # 解绑身份证或工会会员编号绑定的合伙人
 beta1_url = 'http://mem-info.beta1.fn:8080/thirdparty_login_api/unbind'
@@ -35,15 +36,19 @@ Id = [320501199105025546, 320682199108034337, 320321199007281444, 32052519890611
 identifier = ['FN13681702812', 'FN18817350541', 'FN13524485369', 'FN13681702810', 'FN13003258711']
 
 
-def unbinding_fn_id_partner(url):
+# 解绑身份证
+def unbinding_fn_id_partner(url, proxy=None):
 	unbind_data = {
 		'memGuid': ' ',
-		'openType': 10,  # 14 是上海工会，14是苏州工会
-		'openId': 'FN13003258711',
+		'openType': 10,  # 14 是上海工会，10是苏州工会
+		'openId': '320501199105025546',
 		'appId': '-'
 	}
-	text = requests.post(url, unbind_data).text
-	print(text)
+	if not proxy:
+		text = requests.post(url, unbind_data).text
+		print(text)
+	else:
+		print requests.post(url, unbind_data, proxies=proxies).text
 
 
-unbinding_fn_id_partner(url=beta1_url)
+unbinding_fn_id_partner(url=preview_url, proxy=proxies)
