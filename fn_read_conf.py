@@ -89,7 +89,7 @@ readUserInfo_ = readUserInfo()
 a, b, c = readUserInfo_.is_conf_exist(user='a', psw='b', paypsw='c')
 
 userINFO = readUserInfo_.read_conf_info(ini_path)
-# print(userINFO)
 # print (userINFO.next())
+# print(userINFO)
 # a, b, c = list((userINFO.next()))
 print (a, b, c)
