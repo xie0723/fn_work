@@ -1,2 +1,7 @@
 *.pyc
 __pycached
+.idea/dataSources.local.xml
+.idea/dataSources/
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/vcs.xml
