@@ -35,9 +35,6 @@ class operationDB(object):
 	# 执行任意sql
 	def execute_sql(self, query_sql):
 		result = self.create_cursor().execute(query_sql)
-		# fetchmany() 方法返回一个列表,可以使用numRows=3 指定返回行数
-		# return result.fetchmany()
-		# fetchall() 方法返回一个列表的所有行
 		return result.fetchall()
 
 	# 通过订单编号，从order_group表中查询对应的QG_SEQ
@@ -48,17 +45,20 @@ class operationDB(object):
 
 	# 通过QG_SEQ，从order_list 表中查询订单的所有信息
 	def query_info_by_qg_seq(self, qg_seq):
-		query_info_sql = "SELECT * FROM UCORD.ORDER_LIST WHERE OG_SEQ = \'{QG_SEQ}\'".format(QG_SEQ=qg_seq[0][0])
+		query_info_sql = "SELECT * FROM UCORD.ORDER_LIST WHERE OG_SEQ = \'{QG_SEQ}\'". \
+			format(QG_SEQ=qg_seq[0][0])
 		return self.execute_sql(query_info_sql)
 
 	# 通过qg_seq，从order_list 表中查询订单中商品的成本
 	def query_cost(self, qg_seq):
-		query_cost_sql = "SELECT COST FROM UCORD.ORDER_LIST WHERE OG_SEQ = \'{QG_SEQ}\'".format(QG_SEQ=qg_seq[0][0])
+		query_cost_sql = "SELECT COST FROM UCORD.ORDER_LIST WHERE OG_SEQ = \'{QG_SEQ}\'". \
+			format(QG_SEQ=qg_seq[0][0])
 		return self.execute_sql(query_cost_sql)
 
 	# 通过qg_seq，从order_list 表中查询订单中商品的类型
 	def query_kind(self, qg_seq):
-		query_kind_sql = "SELECT KIND FROM UCORD.ORDER_LIST WHERE OG_SEQ = \'{QG_SEQ}\'".format(QG_SEQ=qg_seq[0][0])
+		query_kind_sql = "SELECT KIND FROM UCORD.ORDER_LIST WHERE OG_SEQ = \'{QG_SEQ}\'". \
+			format(QG_SEQ=qg_seq[0][0])
 		return self.execute_sql(query_kind_sql)
 
 	# 通过qg_seq，从order_list 表中查询订单中商品（子商品）的名称
@@ -116,27 +116,49 @@ class resolveData(operationDB):
 		sell_names = [_[0] for _ in self.query_sell_name(QG_SEQ)]
 		sell_nos = [_[0] for _ in self.query_sell_no(QG_SEQ)]
 
-		# 筛选出的组合类型的商品，存在group_type列表中
+		# 筛选出全部是组合类型的商品，存在group_type列表中
 		group_type = []
 		for k, sn, sno, c in zip(kinds, sell_names, sell_nos, costs):
 			if k != '1' and kinds.count(k) > 1 or sell_nos.count(sno) > 1:
 				group_type.append((k, sn, sno, c))
 
-		# 筛选优惠套餐类型的商品，存在Discount_type列表中
+		# 筛选全部为优惠套餐类型的商品，存在Discount_type列表中
 		discount_type = [(_[1], _[-1]) for _ in group_type if _[0] == '13']
 		discount_cost = str(reduce(lambda x, y: x + y, [_[-1] for _ in discount_type]))
 		print u'{0}的总成本是：{1}'.format(discount_type[0][0], discount_cost)
 		print u'优惠套餐内子商品成本分别是：'
 		for i in discount_type:
 			print '{0}→{1}'.format(i[0], i[1])
+		print '--------------------------------------------------------------'
+		group_type_ = [item for item in group_type if item[0] != '13']
+		group_dict = {}
+		for i in group_type_:
+			if i[1] not in group_dict:
+				group_dict[i[1].strip()] = i[-1]
+			else:
+				new_cost = group_dict.get(i[1].strip()) + i[-1]
+				group_dict[i[1].strip()] = new_cost
+		for k in group_dict:
+			print u'{0}的总成本是：{1}'.format(k, group_dict[k])
 
 	# 显示所有类型的商品名称 和成本
 	def show_all_cost_detail(self, CP):
-		print u'==========================以下是单 商品类型=========================='
+		print u'==========================单商品类型=========================='
 		self.show_single_cost_detail(CP)
-		print u'==========================以下是组合商品类型=========================='
+		print u'==========================组合商品类型========================'
 		self.show_group_cost_detail(CP)
+		print u'===========================订单总成本========================='
+		self.get_total_cost(CP)
 
+	def should_be_cost_equal(self, cost, CP):
+		print u'==========================单商品类型=========================='
+		self.show_single_cost_detail(CP)
+		print u'==========================组合商品类型========================'
+		self.show_group_cost_detail(CP)
+		if cost == self.get_total_cost(CP):
+			print u'订单成本校验成功'
+		else:
+			print u'成本计算错误'
 
 if __name__ == '__main__':
 	# 通过订单编号，查询订单中商品信息
@@ -161,7 +183,9 @@ if __name__ == '__main__':
 	# qg_seqs = datas.get_qg_seq('201611CP03091675')
 	# datas.get_total_cost('201611CP03091751')
 	# datas.show_single_cost_detail('201611CP03091796')
-	datas.show_group_cost_detail('201611CP03091796')
+	# datas.show_group_cost_detail('201611CP03091796')
+	# datas.show_all_cost_detail('201611CP03091796')
+	datas.should_be_cost_equal(411.53, '201611CP03091796')
 	# print datas.query_kind(qg_seqs)
 	# print datas.query_cost(qg_seqs)
 	datas.close_db()
