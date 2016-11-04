@@ -99,10 +99,10 @@ class analyseData(operationDB):
 			('201511CM050000195', 0): u'组合商品',
 			('201511CM120000011', 25.43): u'优惠套餐0',
 			('201511CM110000027', 34.58): u'优惠套餐1',
-			('201608CM150000043', 54.01): u'组合商品+加',
+			('201608CM150000043', 514.01): u'组合商品+加',
 		}
 
-	def test_new_assert(self, CP):
+	def assert_cost_detail(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
 		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
 		sell_nos = [_[0] for _ in self.query_sell_no(QG_SEQ)]
@@ -112,14 +112,16 @@ class analyseData(operationDB):
 				temp[sno] = c
 			else:
 				temp[sno] = temp.get(sno) + c
-		for _ in temp.items():
-			if _ in self._test_datas.keys():
+
+		for _ in self._test_datas.keys():
+			if _ in temp.items():
 				print '{0} ,{1} == {2}  √'.format(self._test_datas[_], _[1], _[1])
 			else:
-				print self._test_datas[_], '错误值：%s' % _[1], '正确值：%s' % _[0]
+				print '_______________________________________________________________________________'
+				print "{0},'错误值:'{1},':''错误卖场号：{2}' ×".format(self._test_datas[_], _[1], _[0])
+				print '_______________________________________________________________________________'
 
-			# 获取订单的总成本
-
+	# 获取订单的总成本
 	def show_total_cost(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
 		total_cost = reduce(lambda x, y: x + y, [item[0] for item in self.query_cost(QG_SEQ)])
@@ -215,7 +217,7 @@ if __name__ == '__main__':
 	# datas.get_total_cost('201611CP03091751')
 	# datas.show_single_cost_detail('201611CP03091796')
 	# datas.show_group_cost_detail('201611CP03091796')
-	datas.test_new_assert('201611CP03091796')
+	datas.assert_cost_detail('201611CP03091796')
 	# datas.show_all_cost('201611CP03091796')
 	# print datas.query_kind(qg_seqs)
 	# print datas.query_cost(qg_seqs)
