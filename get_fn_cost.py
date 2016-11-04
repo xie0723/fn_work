@@ -97,6 +97,14 @@ class resolveData(operationDB):
 		print print_msg
 		return total_cost
 
+	# 输出所有商品成本
+	def show_all_cost(self, CP):
+		QG_SEQ = self.get_qg_seq(CP)
+		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
+		sell_names = [_[0] for _ in self.query_sell_name(QG_SEQ)]
+		for c, sn in zip(costs, sell_names):
+			print sn, c
+
 	# 输出单商品类型的名称 和成本
 	def show_single_cost_detail(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
@@ -116,13 +124,13 @@ class resolveData(operationDB):
 		sell_names = [_[0] for _ in self.query_sell_name(QG_SEQ)]
 		sell_nos = [_[0] for _ in self.query_sell_no(QG_SEQ)]
 
-		# 筛选出全部是组合类型的商品，存在group_type列表中
+		# 筛选出全部是组合类型的商品，存在group_type
 		group_type = []
 		for k, sn, sno, c in zip(kinds, sell_names, sell_nos, costs):
 			if k != '1' and kinds.count(k) > 1 or sell_nos.count(sno) > 1:
 				group_type.append((k, sn, sno, c))
 
-		# 筛选全部为优惠套餐类型的商品，存在Discount_type列表中
+		# 筛选全部为优惠套餐类型的商品，存在Discount_type
 		discount_type = [(_[1], _[-1]) for _ in group_type if _[0] == '13']
 		discount_cost = str(reduce(lambda x, y: x + y, [_[-1] for _ in discount_type]))
 		print u'{0}的总成本是：{1}'.format(discount_type[0][0], discount_cost)
@@ -141,7 +149,7 @@ class resolveData(operationDB):
 		for k in group_dict:
 			print u'{0}的总成本是：{1}'.format(k, group_dict[k])
 
-	# 显示所有类型的商品名称 和成本
+	# 显示所有类型的商品名称 和成本,以分类的方式显示
 	def show_all_cost_detail(self, CP):
 		print u'==========================单商品类型=========================='
 		self.show_single_cost_detail(CP)
@@ -150,6 +158,7 @@ class resolveData(operationDB):
 		print u'===========================订单总成本========================='
 		self.get_total_cost(CP)
 
+	# 校验指定订单的成本
 	def should_be_cost_equal(self, cost, CP):
 		print u'==========================单商品类型=========================='
 		self.show_single_cost_detail(CP)
@@ -159,6 +168,7 @@ class resolveData(operationDB):
 			print u'订单成本校验成功'
 		else:
 			print u'成本计算错误'
+
 
 if __name__ == '__main__':
 	# 通过订单编号，查询订单中商品信息
@@ -185,7 +195,7 @@ if __name__ == '__main__':
 	# datas.show_single_cost_detail('201611CP03091796')
 	# datas.show_group_cost_detail('201611CP03091796')
 	# datas.show_all_cost_detail('201611CP03091796')
-	datas.should_be_cost_equal(411.53, '201611CP03091796')
+	datas.show_all_cost('201611CP03091796')
 	# print datas.query_kind(qg_seqs)
 	# print datas.query_cost(qg_seqs)
 	datas.close_db()
