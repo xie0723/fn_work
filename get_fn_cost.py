@@ -40,8 +40,7 @@ class operationDB(object):
 	# 通过订单编号，从order_group表中查询对应的QG_SEQ
 	def get_qg_seq(self, CP):
 		query_qg_seq_sql = "SELECT ORDER_GROUP.OG_SEQ FROM UCORD.ORDER_GROUP WHERE OG_NO = '{OG_NO}'".format(OG_NO=CP)
-		QG_SEQ = self.execute_sql(query_qg_seq_sql)
-		return QG_SEQ
+		return self.execute_sql(query_qg_seq_sql)
 
 	# 通过QG_SEQ，从order_list 表中查询订单的所有信息
 	def query_info_by_qg_seq(self, qg_seq):
@@ -85,19 +84,50 @@ class operationDB(object):
 		self.connect_db().close()
 
 
-class resolveData(operationDB):
+class analyseData(operationDB):
 	def __init__(self):
-		super(resolveData, self).__init__()
+		super(analyseData, self).__init__()
+		self._test_datas = {
+			('201511CM110000033', 2): u'进销单品',
+			('201607CM260000016', 112.5): u'寄销单品',
+			('201511CM050000190', 0): u'门店单品',
+			('201511CM050000057', 95): u'转单单品',
+			('201511CM110000039', 2): u'预购商品',
+			('201511CM120000010', 33.75): u'单品多件',
+			('201511CM120000014', 44.26): u'特卖变价',
+			('201511CM110000038', 8): u'主+配+赠+加',
+			('201511CM050000195', 0): u'组合商品',
+			('201511CM120000011', 25.43): u'优惠套餐0',
+			('201511CM110000027', 34.58): u'优惠套餐1',
+			('201608CM150000043', 54.01): u'组合商品+加',
+		}
 
-	# 获取订单的总成本
-	def get_total_cost(self, CP):
+	def test_new_assert(self, CP):
+		QG_SEQ = self.get_qg_seq(CP)
+		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
+		sell_nos = [_[0] for _ in self.query_sell_no(QG_SEQ)]
+		temp = {}
+		for sno, c in zip(sell_nos, costs):
+			if sno not in temp:
+				temp[sno] = c
+			else:
+				temp[sno] = temp.get(sno) + c
+		for _ in temp.items():
+			if _ in self._test_datas.keys():
+				print '{0} ,{1} == {2}  √'.format(self._test_datas[_], _[1], _[1])
+			else:
+				print self._test_datas[_], '错误值：%s' % _[1], '正确值：%s' % _[0]
+
+			# 获取订单的总成本
+
+	def show_total_cost(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
 		total_cost = reduce(lambda x, y: x + y, [item[0] for item in self.query_cost(QG_SEQ)])
 		print_msg = u'订单：%s 的总成本是→' % CP + str(total_cost)
 		print print_msg
 		return total_cost
 
-	# 输出所有商品成本
+	# 获取整比订单内商品的成本（包括组合类型商品的子商品成本）
 	def show_all_cost(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
 		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
@@ -149,15 +179,6 @@ class resolveData(operationDB):
 		for k in group_dict:
 			print u'{0}的总成本是：{1}'.format(k, group_dict[k])
 
-	# 显示所有类型的商品名称 和成本,以分类的方式显示
-	def show_all_cost_detail(self, CP):
-		print u'==========================单商品类型=========================='
-		self.show_single_cost_detail(CP)
-		print u'==========================组合商品类型========================'
-		self.show_group_cost_detail(CP)
-		print u'===========================订单总成本========================='
-		self.get_total_cost(CP)
-
 	# 校验指定订单的成本
 	def should_be_cost_equal(self, cost, CP):
 		print u'==========================单商品类型=========================='
@@ -189,12 +210,12 @@ if __name__ == '__main__':
 	# 关闭连接
 	# dbs.close_db()
 	# ------------------------------------------------------------------------------------------
-	datas = resolveData()
+	datas = analyseData()
 	# qg_seqs = datas.get_qg_seq('201611CP03091675')
 	# datas.get_total_cost('201611CP03091751')
 	# datas.show_single_cost_detail('201611CP03091796')
 	# datas.show_group_cost_detail('201611CP03091796')
-	datas.show_all_cost_detail('201611CP03091796')
+	datas.test_new_assert('201611CP03091796')
 	# datas.show_all_cost('201611CP03091796')
 	# print datas.query_kind(qg_seqs)
 	# print datas.query_cost(qg_seqs)
