@@ -25,16 +25,16 @@ class operationDB(object):
 			db = cx_Oracle.connect(self.username, self.password, self.services_host + '/' + self.sid)
 			return db
 		except Exception as e:
-			print u'服务器连接失败，请检查设置', e
+			print (u'服务器连接失败，请检查设置', e)
 
 	# 建立游标
-	def create_cursor(self):
+	def cursor_(self):
 		cursor = self.connect_db().cursor()
 		return cursor
 
 	# 执行任意sql
 	def execute_sql(self, query_sql):
-		result = self.create_cursor().execute(query_sql)
+		result = self.cursor_().execute(query_sql)
 		return result.fetchall()
 
 	# 通过订单编号，从order_group表中查询对应的QG_SEQ
@@ -80,13 +80,14 @@ class operationDB(object):
 
 	# 关闭数据库连接
 	def close_db(self):
-		self.create_cursor().close()
+		self.cursor_().close()
 		self.connect_db().close()
 
 
 class analyseData(operationDB):
 	def __init__(self):
 		super(analyseData, self).__init__()
+		# 写死的校验成本数据
 		self._test_datas = {
 			('201511CM110000033', 2): u'进销单品',
 			('201607CM260000016', 112.5): u'寄销单品',
@@ -95,17 +96,29 @@ class analyseData(operationDB):
 			('201511CM110000039', 2): u'预购商品',
 			('201511CM120000010', 33.75): u'单品多件',
 			('201511CM120000014', 44.26): u'特卖变价',
-			('201511CM110000038', 8): u'主+配+赠+加',
+			('201511CM110000038', 81): u'主+配+赠+加',
 			('201511CM050000195', 0): u'组合商品',
 			('201511CM120000011', 25.43): u'优惠套餐0',
 			('201511CM110000027', 34.58): u'优惠套餐1',
-			('201608CM150000043', 514.01): u'组合商品+加',
+			('201608CM150000043', 54.01): u'组合商品+加',
+		}
+		self.kind_ = {
+			1: '主商品',
+			2: '赠品',
+			3: '加购品',
+			6: '组合商品',
+			10: '配件',
+			12: '单品多件',
+			13: '优惠套餐'
 		}
 
 	def assert_cost_detail(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
 		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
 		sell_nos = [_[0] for _ in self.query_sell_no(QG_SEQ)]
+		kinds = [_[0] for _ in self.query_kind(QG_SEQ)]
+
+		# temp 存储CM 编号和对应成本
 		temp = {}
 		for sno, c in zip(sell_nos, costs):
 			if sno not in temp:
@@ -113,20 +126,29 @@ class analyseData(operationDB):
 			else:
 				temp[sno] = temp.get(sno) + c
 
+		# 判断已存在的校验数据是否在temp中
 		for _ in self._test_datas.keys():
 			if _ in temp.items():
-				print '{0} ,{1} == {2}  √'.format(self._test_datas[_], _[1], _[1])
+				print ("{0} ,{1} == {2}   √".format(self._test_datas[_], _[1], _[1]))
 			else:
-				print '_______________________________________________________________________________'
-				print "{0},'错误值:'{1},':''错误卖场号：{2}' ×".format(self._test_datas[_], _[1], _[0])
-				print '_______________________________________________________________________________'
+				# 临时的字典，用于存储计算错误的成本信息
+				error_info = {}
+				print ('_______________________________________________________________________________')
+				print ("{0},'错误:'{1},'正确：{2}',':''卖场号：{3}'，   ×".format(self._test_datas[_], temp[_[0]], _[1], _[0]))
+				for i in zip(kinds, costs, sell_nos):
+					if i[-1] == str(_[0]):
+						error_info[i[0]] = i[1]
+				for k, v in error_info.items():
+					print ("{0}：'的成本是'{1}".format(self.kind_[int(k)],v))
+				print ('_______________________________________________________________________________')
+				error_info.clear()
 
 	# 获取订单的总成本
 	def show_total_cost(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
 		total_cost = reduce(lambda x, y: x + y, [item[0] for item in self.query_cost(QG_SEQ)])
 		print_msg = u'订单：%s 的总成本是→' % CP + str(total_cost)
-		print print_msg
+		print (print_msg)
 		return total_cost
 
 	# 获取整比订单内商品的成本（包括组合类型商品的子商品成本）
@@ -135,7 +157,7 @@ class analyseData(operationDB):
 		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
 		sell_names = [_[0] for _ in self.query_sell_name(QG_SEQ)]
 		for c, sn in zip(costs, sell_names):
-			print sn, c
+			print (sn, c)
 
 	# 输出单商品类型的名称 和成本
 	def show_single_cost_detail(self, CP):
@@ -146,14 +168,14 @@ class analyseData(operationDB):
 
 		for k, c, sn in zip(kinds, costs, sell_names):
 			if int(k[0]) == 1:
-				print sn[0] + '：→' + '(' + str(c[0]) + ')'
+				print (sn[0] + '：→' + '(' + str(c[0]) + ')')
 
 	# 输出组合类型商品的名称 和成本
 	def show_group_cost_detail(self, CP):
 		QG_SEQ = self.get_qg_seq(CP)
 		kinds = [_[0] for _ in self.query_kind(QG_SEQ)]
-		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
 		sell_names = [_[0] for _ in self.query_sell_name(QG_SEQ)]
+		costs = [_[0] for _ in self.query_cost(QG_SEQ)]
 		sell_nos = [_[0] for _ in self.query_sell_no(QG_SEQ)]
 
 		# 筛选出全部是组合类型的商品，存在group_type
@@ -165,11 +187,11 @@ class analyseData(operationDB):
 		# 筛选全部为优惠套餐类型的商品，存在Discount_type
 		discount_type = [(_[1], _[-1]) for _ in group_type if _[0] == '13']
 		discount_cost = str(reduce(lambda x, y: x + y, [_[-1] for _ in discount_type]))
-		print u'{0}的总成本是：{1}'.format(discount_type[0][0], discount_cost)
-		print u'优惠套餐内子商品成本分别是：'
+		print (u'{0}的总成本是：{1}'.format(discount_type[0][0], discount_cost))
+		print (u'优惠套餐内子商品成本分别是：')
 		for i in discount_type:
-			print '{0}→{1}'.format(i[0], i[1])
-		print '--------------------------------------------------------------'
+			print ('{0}→{1}'.format(i[0], i[1]))
+		print ('--------------------------------------------------------------')
 		group_type_ = [item for item in group_type if item[0] != '13']
 		group_dict = {}
 		for i in group_type_:
@@ -179,18 +201,18 @@ class analyseData(operationDB):
 				new_cost = group_dict.get(i[1].strip()) + i[-1]
 				group_dict[i[1].strip()] = new_cost
 		for k in group_dict:
-			print u'{0}的总成本是：{1}'.format(k, group_dict[k])
+			print (u'{0}的总成本是：{1}'.format(k, group_dict[k]))
 
 	# 校验指定订单的成本
 	def should_be_cost_equal(self, cost, CP):
-		print u'==========================单商品类型=========================='
+		print (u'==========================单商品类型==========================')
 		self.show_single_cost_detail(CP)
-		print u'==========================组合商品类型========================'
+		print (u'==========================组合商品类型========================')
 		self.show_group_cost_detail(CP)
 		if cost == self.get_total_cost(CP):
-			print u'订单成本校验成功'
+			print (u'订单成本校验成功')
 		else:
-			print u'成本计算错误'
+			print (u'成本计算错误')
 
 
 if __name__ == '__main__':
