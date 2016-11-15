@@ -8,6 +8,12 @@ from selenium import webdriver
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.by import By
 
+
+def get_now_time():
+	print (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+	return time.strftime("%Y-%m-%d", time.localtime())
+
+
 driver = webdriver.Chrome()
 
 driver.get('http://zentao.fn.com/index.php')
@@ -43,19 +49,14 @@ driver.find_element(By.ID, 'name').send_keys(u'每周测试任务')
 driver.find_element(By.ID, 'estimate').send_keys('40')
 
 # 输入预计开始时间
-driver.find_element(By.ID, 'estStarted').send_keys('2016-11-07')
+driver.find_element(By.ID, 'estStarted').send_keys(get_now_time())
 
 # 输入截止日期
-driver.find_element(By.ID, 'deadline').send_keys('2016-11-11')
+driver.find_element(By.ID, 'deadline').send_keys(get_now_time())
 
 # 保存
-driver.maximize_window()
-driver.find_element(By.ID, 'submit').click()
+# driver.maximize_window()
+# driver.find_element(By.ID, 'submit').click()
 
 time.sleep(5)
 driver.quit()
-
-
-def get_now_time():
-	print (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-	return time.strftime("%Y-%m-%d", time.localtime())
