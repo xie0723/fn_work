@@ -49,9 +49,11 @@ listData = [formData1, formData2, formData4, formData5, formData6, formData7, fo
             formData11, formData12]
 
 headers2 = {
-	'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36',
+	'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)\
+	 Chrome/51.0.2704.103 Safari/537.36',
 	'X-Requested-With': 'XMLHttpRequest', 'Referer': 'http://zentao.fn.com/index.php?m=testtask&f=linkCase&taskID=4854',
-	'cookies': 'treeview=100000; pagerTesttaskLinkcase=500;lastProduct=142; windowWidth=1920; windowHeight=911; lang=zh-cn; theme=default'
+	'cookies': 'treeview=100000; pagerTesttaskLinkcase=500;lastProduct=142; windowWidth=1920;\
+	 windowHeight=911; lang=zh-cn; theme=default'
 }
 testSuiteNumberList = [4783, 4824, 4825]
 for i in range(4726, 4754):
