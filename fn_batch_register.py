@@ -42,7 +42,7 @@ def get_password():
 
 
 def get_accounts_number():
-	return int(raw_input("请输入需要生产的账号总数 :"))
+	return int(input('请输入需要的账号数量：'))
 
 
 def get_ip():
