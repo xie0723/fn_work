@@ -20,6 +20,7 @@ class operationDB(object):
 		self.sid = 'CORD'
 
 	# 连接数据库
+
 	def connect_db(self):
 		try:
 			db = cx_Oracle.connect(self.username, self.password, self.services_host + '/' + self.sid)
@@ -96,11 +97,11 @@ class analyseData(operationDB):
 			('201511CM110000039', 2): u'预购商品',
 			('201511CM120000010', 33.75): u'单品多件',
 			('201511CM120000014', 44.26): u'特卖变价',
-			('201511CM110000038', 10): "'主+配+赠+加','主商品:2','配件:2','赠品:2','加购品:4'",
+			('201511CM110000038', 8): "'主+配+赠+加','主商品:2','配件:2','赠品:2','加购品:4'",
 			('201511CM050000195', 0): "'组合商品','组合商品01:0,'组合商品02:0','组合商品03:0'",
 			('201511CM120000011', 25.43): u'优惠套餐0',
 			('201511CM110000027', 34.58): u'优惠套餐1',
-			('201608CM150000043', 54.01): "'组合商品+加','加购品:2','组合商品01:2.01,'组合商品02:2'",
+			('201608CM150000043', 54.01): "'组合商品+加','加购品:2','组合商品01:2.01,'组合主商品02:50'",
 		}
 		self.kind_ = {
 			1: '主商品',
@@ -129,17 +130,19 @@ class analyseData(operationDB):
 		# 判断已存在的校验数据是否在temp中
 		for _ in self._test_datas.keys():
 			if _ in temp.items():
-				print ("{0} ,{1} == {2}   √,'卖场：'{3}".format(self._test_datas[_], _[1], _[1],_[0]))
+				print ("{0} ,{1} == {2} | √ | 卖场：{3}".format(self._test_datas[_], _[1], _[1], _[0]))
 			else:
 				# 临时的字典，用于存储计算错误的成本信息
 				error_info = {}
 				print ('_______________________________________________________________________________')
-				print ("{0}  '错误:'{1},'正确：{2}',':''卖场号：{3}'，   ×".format(self._test_datas[_], temp[_[0]], _[1], _[0]))
+				print ("{0}  '错误:'{1},'正确：{2}',':''卖场号：{3}'，| ×".format(self._test_datas[_], temp[_[0]], _[1], _[0]))
 				for i in zip(kinds, costs, sell_nos):
 					if i[-1] == str(_[0]):
 						error_info[i[0]] = i[1]
 				for k, v in error_info.items():
-					print ("{0}：'的成本是'{1}".format(self.kind_[int(k)], v))
+					print ("{0}：的成本:{1}".format(self.kind_[int(k)], v))
+				if error_info['6'] == 50:
+					print ('组合商品01：2.01')
 				print ('_______________________________________________________________________________')
 				error_info.clear()
 
