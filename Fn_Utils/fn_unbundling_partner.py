@@ -48,7 +48,7 @@ def unbinding_fn_id_partner(url, proxy=None):
 		text = requests.post(url, unbind_data).text
 		print(text)
 	else:
-		print requests.post(url, unbind_data, proxies=proxies).text
+		print (requests.post(url, unbind_data, proxies=proxies).text)
 
 
 unbinding_fn_id_partner(url=preview_url, proxy=proxies)
