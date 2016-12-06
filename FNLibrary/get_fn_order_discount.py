@@ -151,3 +151,4 @@ if __name__ == '__main__':
 	print (fnDiscount.get_ID_discount('201612CP05101507', '201311CG150000123', '201501CG160000047', '90103162279'))
 	# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
 	# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
+
