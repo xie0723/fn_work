@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 
+from __future__ import print_function
+
 __Author__ = "xiewm"
 __Date__ = '2016/11/30 14:09'
 import sys
@@ -74,24 +76,6 @@ class fnDiscount(object):
 		# 计算自营分摊总和
 		return sum([float(_) for _ in selfShareData if _ is not None and _ != ''])
 
-	# 获取自营分摊明细
-	@classmethod
-	def get_list_data_detail(cls, CP):
-		# 获取所有自营商品数据
-		listDataDetail = fnDiscount().get_order_detail(CP)['Body']['list_data']
-
-		# 以分摊名作为key，统计各分摊金额总计
-		tempListDataDetail = {}
-		for i in listDataDetail:
-			for k in fnDiscount().list_data_keys:
-				if k in i.keys():
-					if k not in tempListDataDetail:
-						tempListDataDetail[k] = (int(i[k]) if i[k] is not None and i[k] != '' else 0)
-					else:
-						tempListDataDetail[k] = tempListDataDetail.get(k) + (
-							int(i[k]) if i[k] is None and i[k] == '' else 0)
-		return tempListDataDetail
-
 	# 获取商城分摊
 	@classmethod
 	def get_list_data_mall(cls, CP):
@@ -142,29 +126,46 @@ class fnDiscount(object):
 	def get_total_discount(cls, CP):
 		return fnDiscount.get_list_data(CP) + fnDiscount.get_list_data_mall(CP)
 
+	# 分摊断言自定义关键字
 	@staticmethod
-	def assert_discount_detail(CP, **kwargs):
+	def assert_discount_detail(CP, *ID, **kwargs):
+		try:
+			# 总分摊断言
+			assert kwargs['totalDiscount'] == str(fnDiscount.get_total_discount(CP)), '总分摊金额校验失败，请检查数据'
+			# 自营分摊断言
+			assert kwargs['selfDiscount'] == str(fnDiscount.get_list_data(CP)), '自营分摊金额校验失败，请检查数据'
+			# 商城分摊断言
+			assert kwargs['mallDiscount'] == str(fnDiscount.get_list_data_mall(CP)), '商城分摊金额校验失败，请检查数据'
+		except Exception as e:
+			print(e)
+		else:
+			print('总分摊、自营分摊、商城分摊金额校验成功')
 
-		_assert_datas01 = {
-			'totalDiscount': '269.0',
-			'selfDiscount': '144.92',
-			'mallDiscount': '124.08',
-		}
-		_assert_datas = {
-			'totalDiscount': '195.0',
-			'selfDiscount': '86.75',
-			'mallDiscount': '108.25',
-		}
-		return fnDiscount.get_total_discount(CP)
+		# 任一商品ID校验数据
+		datas = fnDiscount.get_ID_discount(CP, *ID)
+		print (datas)
+		# for _ in datas.values():
+		# 	print(_, type(_))
+		# 任一商品分摊断言
+		for i, item in enumerate(kwargs['ID']):
+			# 取出kwargs 中的商品分摊金额与 计算的商品分摊金额进行对比
+			if item != str(datas.values()[i]):
+				print('商品{0}的分摊金额有误：{1}'.format(ID[i], datas.values()[i]))
+			else:
+				print('商品{0}的分摊金额校验成功：{1}'.format(ID[i], datas.values()[i]))
 
 
 if __name__ == '__main__':
 	# 分摊1 201612CP01100435  分摊2：201612CP02100675  行销：201612CP05101507
-	print(fnDiscount.get_list_data('201612CP05101507'))
-	print(fnDiscount.get_list_data_mall('201612CP05101507'))
-	print(fnDiscount.get_total_discount('201612CP05101507'))
+	# print(fnDiscount.get_list_data('201612CP05101507'))
+	# print(fnDiscount.get_list_data_mall('201612CP05101507'))
+	# print(fnDiscount.get_total_discount('201612CP05101507'))
 	# print(fnDiscount.assert_discount_detail('201612CP01100435'))
 	# print (fnDiscount.get_list_data_detail('201612CP01100435'))
-	print (fnDiscount.get_ID_discount('201612CP05101507', '201311CG150000123', '201501CG160000047', '90103162279'))
-# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
-# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
+	# print (fnDiscount.get_ID_discount('201612CP05101507', '201311CG150000123', '201501CG160000047', '90103162279'))
+	# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
+	# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
+	fnDiscount.assert_discount_detail('201612CP05101507', '201501CG160000047','201311CG150000123', '90103162279',
+	                                  totalDiscount='1418.56', selfDiscount='266.82', mallDiscount='1151.74',
+	                                  ID=['11.61', '9.76', '98.46']
+	                                  )
