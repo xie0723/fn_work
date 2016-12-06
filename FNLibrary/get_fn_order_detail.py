@@ -13,15 +13,15 @@ class fnDiscount(object):
 	def __init__(self):
 		# 订单明细查询
 		self.order_query_url = 'http://erp-api.beta1.fn/cs_order_query_api/query_list'
-		# 行销活动“详” 查询(分摊2，自营详)
-		self.get_activity_url = 'http://erp-api.beta1.fn/cs_order_query_api/get_activity_data'
 
 		# 自营keys
 		self.list_data_keys = ('BONUS_BY_LIST', 'SCORE_DISCOUNT', 'USE_BALANCE_POINTS', 'PCS_DISCOUNT',
 		                       'USE_BALANCEPOINTS', 'USE_FULLDIS_POINTS')
 
 		# 商城keys
-		self.list_data_mall_keys = ('APRNVOUCHER', "PLATFORMAPRNVOUCHER", 'USE_BALANCEPOINTS', 'APRNCASHCARD',
+		# self.list_data_mall_keys = ('APRNVOUCHER', "PLATFORMAPRNVOUCHER", 'USE_BALANCEPOINTS', 'APRNCASHCARD',
+		#                             'SCORE_DISCOUNT')
+		self.list_data_mall_keys = ('APRNPROMOTE', 'USE_BALANCEPOINTS', 'APRNCASHCARD',
 		                            'SCORE_DISCOUNT')
 		# 订单接口post data
 		self.query_data = {
@@ -69,9 +69,10 @@ class fnDiscount(object):
 			for k in fnDiscount().list_data_keys:
 				if k in i.keys():
 					if k not in tempListDataDetail:
-						tempListDataDetail[k] = (0 if i[k] is None and i[k] == '' else int(i[k]))
+						tempListDataDetail[k] = (int(i[k]) if i[k] is not None and i[k] != '' else 0)
 					else:
-						tempListDataDetail[k] = tempListDataDetail.get(k) + (0 if i[k] is None and i[k] == '' else int(i[k]))
+						tempListDataDetail[k] = tempListDataDetail.get(k) + (
+						int(i[k]) if i[k] is None and i[k] == '' else 0)
 		return tempListDataDetail
 
 	# 获取商城分摊
@@ -115,7 +116,6 @@ class fnDiscount(object):
 				                listDataMallDetail[ITNOS.index(id_)].keys() for j in fnDiscount().list_data_mall_keys
 				                if j == i
 				                ]
-				print (mallDiscount)
 				tempDiscount[id_] = sum([float(_) for _ in mallDiscount if _ is not None and _ != ''])
 
 		return tempDiscount
@@ -140,12 +140,14 @@ class fnDiscount(object):
 		}
 		return fnDiscount.get_total_discount(CP)
 
+
 if __name__ == '__main__':
 	# 分摊1 201612CP01100435  分摊2：201612CP02100675  行销：201612CP05101507
-	# print(fnDiscount.get_list_data('201612CP01100435'))
-	# print(fnDiscount.get_list_data_mall('201612CP01100435'))
+	print(fnDiscount.get_list_data('201612CP05101507'))
+	print(fnDiscount.get_list_data_mall('201612CP05101507'))
+	print(fnDiscount.get_total_discount('201612CP05101507'))
 	# print(fnDiscount.assert_discount_detail('201612CP01100435'))
-	print (fnDiscount.get_list_data_detail('201612CP01100435'))
-# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '90103163671'))
-# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
-# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
+	# print (fnDiscount.get_list_data_detail('201612CP01100435'))
+	print (fnDiscount.get_ID_discount('201612CP05101507', '201311CG150000123', '201501CG160000047', '90103162279'))
+	# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
+	# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
