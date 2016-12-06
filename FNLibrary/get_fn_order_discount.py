@@ -1,12 +1,28 @@
 # -*- coding: utf-8 -*-
+
+
 __Author__ = "xiewm"
 __Date__ = '2016/11/30 14:09'
 import sys
 import requests
 import requests.adapters
+from functools import wraps
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+
+# 缓存订单接口的首次查询结果
+def query_order_cache(func):
+	cache = {}
+
+	@wraps(func)
+	def wrapper(self, CP):
+		if CP not in cache:
+			cache[CP] = func(self, CP)
+		return cache[CP]
+
+	return wrapper
 
 
 class fnDiscount(object):
@@ -32,6 +48,7 @@ class fnDiscount(object):
 		self.s = requests.Session()
 
 	# 获取订单详情
+	@query_order_cache
 	def get_order_detail(self, CP):
 		if len(CP) != 16:
 			raise ValueError('订单编号须为16位！')
@@ -72,7 +89,7 @@ class fnDiscount(object):
 						tempListDataDetail[k] = (int(i[k]) if i[k] is not None and i[k] != '' else 0)
 					else:
 						tempListDataDetail[k] = tempListDataDetail.get(k) + (
-						int(i[k]) if i[k] is None and i[k] == '' else 0)
+							int(i[k]) if i[k] is None and i[k] == '' else 0)
 		return tempListDataDetail
 
 	# 获取商城分摊
@@ -149,6 +166,5 @@ if __name__ == '__main__':
 	# print(fnDiscount.assert_discount_detail('201612CP01100435'))
 	# print (fnDiscount.get_list_data_detail('201612CP01100435'))
 	print (fnDiscount.get_ID_discount('201612CP05101507', '201311CG150000123', '201501CG160000047', '90103162279'))
-	# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
-	# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
-
+# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
+# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
