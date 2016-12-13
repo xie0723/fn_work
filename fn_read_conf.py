@@ -5,7 +5,7 @@ import os
 from configparser import ConfigParser
 
 
-# 装饰器，实现账号使用N 次后更换下一个账号
+# 装饰器，实现账号使用N次后更换下一个账号
 def mark_info(func):
 	def wrapper(filepath):
 		usersINFO, cfg = func(filepath)
