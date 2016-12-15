@@ -80,6 +80,7 @@ class operationDB(object):
 		return self.execute_sql(query_sell_no_sql)
 
 	# 关闭数据库连接
+	@property
 	def close_db(self):
 		self.cursor_().close()
 		self.connect_db().close()
@@ -246,4 +247,4 @@ if __name__ == '__main__':
 	# datas.show_all_cost('201611CP03091796')
 	# print datas.query_kind(qg_seqs)
 	# print datas.query_cost(qg_seqs)
-	datas.close_db()
+	datas.close_db
