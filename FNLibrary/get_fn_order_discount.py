@@ -100,7 +100,6 @@ class fnDiscount(object):
 		ITNOS = [_['ITNO'] for _ in listDataMallDetail]
 		# 临时字典，用于存储指定商品对应的分摊数据。
 		tempDiscount = {}
-
 		for id_ in ID:
 			if id_ in ID_NOS:
 				selfDiscount = [listDataDetail[ID_NOS.index(id_)][i] for i in
@@ -136,12 +135,12 @@ class fnDiscount(object):
 		:return:
 		"""
 		try:
-			# 总分摊断言
-			assert kwargs['totalDiscount'] == str(fnDiscount.get_total_discount(CP)), '总分摊金额校验失败，请检查数据'
 			# 自营分摊断言
 			assert kwargs['selfDiscount'] == str(fnDiscount.get_list_data(CP)), '自营分摊金额校验失败，请检查数据'
 			# 商城分摊断言
 			assert kwargs['mallDiscount'] == str(fnDiscount.get_list_data_mall(CP)), '商城分摊金额校验失败，请检查数据'
+			# 总分摊断言
+			assert kwargs['totalDiscount'] == str(fnDiscount.get_total_discount(CP)), '总分摊金额校验失败，请检查数据'
 		except Exception as e:
 			print(e)
 		else:
@@ -150,27 +149,35 @@ class fnDiscount(object):
 
 		# 任一商品ID校验数据
 		datas = fnDiscount.get_ID_discount(CP, *ID)
-
 		# 任一商品分摊断言
 		for i, item in enumerate(kwargs['ID']):
 			# 取出kwargs 中的商品分摊金额与 计算的商品分摊金额进行对比
-			if item != str(datas.values()[i]):
-				print('商品{0}的分摊金额有误：{1}'.format(ID[i], datas.values()[i]))
+			# print (datas[ID[i]])
+			# print((datas[ID[i]] - 0.01))
+			# print((datas[ID[i]] + 0.01))
+			if item != str(datas[ID[i]]):
+				print('商品{0}的分摊金额有误：{1}'.format(ID[i], datas[ID[i]]))
 			else:
-				print('商品{0}的分摊金额校验成功：{1}'.format(ID[i], datas.values()[i]))
+				print('商品{0}的分摊金额校验成功：{1}'.format(ID[i], datas[ID[i]]))
 
 
 if __name__ == '__main__':
 	# 分摊1 201612CP01100435  分摊2：201612CP02100675  行销：201612CP05101507
-	# print(fnDiscount.get_list_data('201612CP05101507'))
-	# print(fnDiscount.get_list_data_mall('201612CP05101507'))
-	# print(fnDiscount.get_total_discount('201612CP05101507'))
+	# print(fnDiscount.get_list_data('201612CP14104918'))
+	# print(fnDiscount.get_list_data_mall('201612CP14104918'))
+	# print(fnDiscount.get_total_discount('201612CP14104918'))
 	# print(fnDiscount.assert_discount_detail('201612CP01100435'))
 	# print (fnDiscount.get_list_data_detail('201612CP01100435'))
-	# print (fnDiscount.get_ID_discount('201612CP05101507', '201311CG150000123', '201501CG160000047', '90103162279'))
 	# print (fnDiscount.get_ID_discount('201612CP02100675', '201511CG120000012', '201511CG120000009'))
 	# print (fnDiscount.get_ID_discount('201612CP02100675', '90103163673'))
-	fnDiscount.assert_discount_detail('201612CP05101507', '201501CG160000047', '201311CG150000123', '90103162279',
-	                                  totalDiscount='1418.56', selfDiscount='266.82', mallDiscount='1151.74',
-	                                  ID=['11.61', '9.76', '98.46']
+	fnDiscount.assert_discount_detail('201612CP14104918', '90103163789', '90103163674',
+	                                  totalDiscount='183.0', selfDiscount='129.22', mallDiscount='53.78',
+	                                  ID=('5.99', '6.0')
 	                                  )
+
+# fnDiscount.assert_discount_detail('201612CP09103075', '201511CG110000032', '201607CG260000015', '201511CG050000177',
+#                                   '201511CG050000057', '201511CG120000009', '201511CG120000012',
+#                                   '201511CG110000037', totalDiscount='118.0', selfDiscount='53.08',
+#                                   mallDiscount='64.92',
+#                                   ID=['4.43', '7.6', '0.4', '5.06', '6.85', '2.96', '1.3']
+#                                   )
