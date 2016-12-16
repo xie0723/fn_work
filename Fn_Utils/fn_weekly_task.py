@@ -12,6 +12,7 @@ from selenium.webdriver.common.by import By
 class fnWeekTask(object):
 	def __init__(self):
 		self.driver = webdriver.Chrome()
+		# self.driver = webdriver.PhantomJS()
 
 	# 打开首页
 	def open_home_page(self):
@@ -70,12 +71,12 @@ class fnWeekTask(object):
 
 	# 输入预计开始时间
 	def input_except_start_time(self):
-		self.driver.find_element(By.ID, 'estStarted').send_keys('2016-11-21')
+		self.driver.find_element(By.ID, 'estStarted').send_keys('2016-11-28')
 		return self
 
 	# 输入截止日期
 	def input_except_end_time(self):
-		self.driver.find_element(By.ID, 'deadline').send_keys('2016-11-25')
+		self.driver.find_element(By.ID, 'deadline').send_keys('2016-12-2')
 		return self
 
 	# 保存
@@ -99,7 +100,6 @@ class fnWeekTask(object):
 	def get_now_time():
 		print (time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 		return time.strftime("%Y-%m-%d", time.localtime())
-
 
 if __name__ == '__main__':
 	fnwork = fnWeekTask()
