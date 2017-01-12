@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/get_fn_cost.py" dialect="Oracle" />
+    <file url="dbSrc:///72b2b5dc/7d18a9d3-6836-45ad-bb33-504b53792793" dialect="Oracle" />
+    <file url="dbSrc:///72b2b5dc/8c68f86d-65cf-474d-9f35-88b23763b057" dialect="Oracle" />
+    <file url="dbSrc:///72b2b5dc/9d9f0937-aa4d-4bde-8898-53eea29b3cb1" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/FNLibrary/get_fn_cost.py" dialect="Oracle" />
   </component>
 </project>

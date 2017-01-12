@@ -48,11 +48,12 @@ class fnSFTP(object):
 			t = paramiko.Transport((self.host, self.port))
 			t.connect(username=self.user, password=self.password)
 			sftp = paramiko.SFTPClient.from_transport(t)
+			t.close()
 		except Exception as e:
 			print (e)
 			print ('登录失败')
 		return sftp
-		t.close()
+
 
 	# 上传文件
 	def fn_upload_file(self, local_file, server_file):

@@ -1,46 +1,2036 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/FNLibrary/get_fn_cost.py" line="226" />
+    <bookmark url="file://$PROJECT_DIR$/FNLibrary/get_fn_cost.py" line="237" />
+    <bookmark url="file://$PROJECT_DIR$/FNLibrary/get_fn_cost.py" line="246" />
+    <bookmark url="file://$PROJECT_DIR$/FNLibrary/get_fn_cost.py" line="138" />
+    <bookmark url="file://$PROJECT_DIR$/FNLibrary/get_fn_order_discount.py" line="75" />
+    <bookmark url="file://$PROJECT_DIR$/../study_python/assertdemo.py" line="7" />
+    <bookmark url="file://$PROJECT_DIR$/../study_python/fib_demo.py" line="47" />
+    <bookmark url="file://$PROJECT_DIR$/../fnDemo/business/homeOrderList.py" line="29" />
+  </component>
   <component name="ChangeListManager">
+    <list default="true" id="de8d1157-9773-4a21-a52f-435d71601998" name="Default" comment="人物简介 html">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/dictionaries/wangming_xie.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/buyCart.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/Setting/demo.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/@contentManger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/HTMLTestRunner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/assertDemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/demo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/fib_demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/fibdemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/file_operator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/groupby.demo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/instancedemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/robot framwork_SOURCES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/singlen.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/socketDemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/staticclass.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/study_jsonpath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/study_threding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/tempfiles.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/testCaseData/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/testCaseData/testCase.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/unitdemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/very important.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_python/xmldemo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../study_web_dev_project/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../study_python/demo.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../auto_http_api/DAL/Dhttpbase.py" afterPath="$PROJECT_DIR$/../auto_http_api/DAL/Dhttpbase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../auto_http_api/model/Mhttpbase.py" afterPath="$PROJECT_DIR$/../auto_http_api/model/Mhttpbase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/feiniu_interface_automationtest.iml" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/feiniu_interface_automationtest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/misc.xml" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/modules.xml" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/fnClient.py" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/fnClient.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/Setting/global_conf.py" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/Setting/global_conf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/demo/yaml_demo.py" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/demo/yaml_demo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/wangming_xie.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/wangming_xie.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/fn_work.iml" afterPath="$PROJECT_DIR$/.idea/fn_work.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FNLibrary/get_fn_order_discount.py" afterPath="$PROJECT_DIR$/FNLibrary/get_fn_order_discount.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FNLibrary/version.py" afterPath="$PROJECT_DIR$/FNLibrary/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fn_Utils/fn_weekly_task.py" afterPath="$PROJECT_DIR$/Fn_Utils/fn_weekly_task.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug_tools.py" afterPath="$PROJECT_DIR$/debug_tools.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fn_SFTP.py" afterPath="$PROJECT_DIR$/fn_SFTP.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fn_zentao_week_task.py" afterPath="$PROJECT_DIR$/fn_zentao_week_task.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myFlaskProject/.gitignore" afterPath="$PROJECT_DIR$/../myFlaskProject/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myFlaskProject/app.py" afterPath="$PROJECT_DIR$/../myFlaskProject/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myFlaskProject/config.py" afterPath="$PROJECT_DIR$/../myFlaskProject/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myFlaskProject/manage.py" afterPath="$PROJECT_DIR$/../myFlaskProject/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../myFlaskProject/requirenments.txt" afterPath="$PROJECT_DIR$/../myFlaskProject/requirenments.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../study_python/demo6.py" afterPath="$PROJECT_DIR$/../study_python/demo6.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../study_web_dev_project/demo.html" afterPath="$PROJECT_DIR$/../study_web_dev_project/demo.html" />
+      <change type="MODIFICATION" beforePath="D:/microblog/app/__init__.py" afterPath="D:/microblog/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/app/models.py" afterPath="D:/microblog/app/models.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/app/templates/base.html" afterPath="D:/microblog/app/templates/base.html" />
+      <change type="MODIFICATION" beforePath="D:/microblog/app/views.py" afterPath="D:/microblog/app/views.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/config.py" afterPath="D:/microblog/config.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/flask/Lib/site-packages/whoosh/collectors.py" afterPath="D:/microblog/flask/Lib/site-packages/whoosh/collectors.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/flask/Lib/site-packages/whoosh/matching/binary.py" afterPath="D:/microblog/flask/Lib/site-packages/whoosh/matching/binary.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/flask/Lib/site-packages/whoosh/matching/wrappers.py" afterPath="D:/microblog/flask/Lib/site-packages/whoosh/matching/wrappers.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/flask/Lib/site-packages/whoosh/query/compound.py" afterPath="D:/microblog/flask/Lib/site-packages/whoosh/query/compound.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/flask/Lib/site-packages/whoosh/query/nested.py" afterPath="D:/microblog/flask/Lib/site-packages/whoosh/query/nested.py" />
+      <change type="MODIFICATION" beforePath="D:/microblog/flask/Lib/site-packages/whoosh/searching.py" afterPath="D:/microblog/flask/Lib/site-packages/whoosh/searching.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/get_all_voucher.py" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/getAllVoucher.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/order_api.py" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/orderApi.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/shopping_cart.py" afterPath="$PROJECT_DIR$/../feiniu_interface_automationtest/Public/shoppingCart.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Fn_Utils/fn_batch_register.py" afterPath="$PROJECT_DIR$/Fn_Utils/fn1_batch_register.py" />
+    </list>
+    <list id="b6da92d2-1c0c-4322-8ff0-8c18eb6fcfc4" name="Failed commit: Default" comment="update global_conf.py" />
+    <ignored path="fn_work.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_testCase.coverage" NAME="Unittests in testCase Coverage Results" MODIFIED="1482289021105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$dataOperation.coverage" NAME="dataOperation Coverage Results" MODIFIED="1482303680769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/fnUtils" />
+    <SUITE FILE_PATH="coverage/fn_work$singlen.coverage" NAME="singlen Coverage Results" MODIFIED="1483091278505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$shop1.coverage" NAME="shop1 Coverage Results" MODIFIED="1482289551396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1480573553908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../feiniu_interface_automationtest/demo" />
+    <SUITE FILE_PATH="coverage/fn_work$buyOrderApi.coverage" NAME="buyOrderApi Coverage Results" MODIFIED="1482290949190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$parser.coverage" NAME="parser Coverage Results" MODIFIED="1481685748388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Python35/Lib/site-packages/jsonpath_rw" />
+    <SUITE FILE_PATH="coverage/fn_work$very_important.coverage" NAME="very important Coverage Results" MODIFIED="1482458713931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$views.coverage" NAME="views Coverage Results" MODIFIED="1483687659395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog/app" />
+    <SUITE FILE_PATH="coverage/fn_work$fn2_batch_register.coverage" NAME="fn2_batch_register Coverage Results" MODIFIED="1481705659562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fn_Utils" />
+    <SUITE FILE_PATH="coverage/fn_work$get_fn_discount_detail.coverage" NAME="get_fn_discount_detail Coverage Results" MODIFIED="1480646541902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FNLibrary" />
+    <SUITE FILE_PATH="coverage/fn_work$get_test_data.coverage" NAME="get_test_data Coverage Results" MODIFIED="1482199131854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/fnUtils" />
+    <SUITE FILE_PATH="coverage/fn_work$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1483434627143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog-0.3" />
+    <SUITE FILE_PATH="coverage/fn_work$fn_batch_register__1_.coverage" NAME="fn_batch_register (1) Coverage Results" MODIFIED="1481701403307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fn_Utils" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_testCase__4_.coverage" NAME="Unittests in testCase (4) Coverage Results" MODIFIED="1482289276937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$shop.coverage" NAME="shop Coverage Results" MODIFIED="1482290268325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$__builtin__.coverage" NAME="__builtin__ Coverage Results" MODIFIED="1481002336568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.PyCharm2016.3/system/python_stubs/-762174762" />
+    <SUITE FILE_PATH="coverage/fn_work$homeOrderList.coverage" NAME="homeOrderList Coverage Results" MODIFIED="1482285043321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$get_fn_cost__1_.coverage" NAME="get_fn_cost (1) Coverage Results" MODIFIED="1478661103989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FNLibrary" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_staticclass.coverage" NAME="Unittests in staticclass Coverage Results" MODIFIED="1480908569563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$study_jsonpath.coverage" NAME="study_jsonpath Coverage Results" MODIFIED="1481684534607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_case.coverage" NAME="Unittests in case Coverage Results" MODIFIED="1482290281868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittest_test_test1.coverage" NAME="Unittest test.test1 Coverage Results" MODIFIED="1480908381614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$shopping.coverage" NAME="shopping Coverage Results" MODIFIED="1482290956615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$AB.coverage" NAME="AB Coverage Results" MODIFIED="1483091337058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo" />
+    <SUITE FILE_PATH="coverage/fn_work$global_conf.coverage" NAME="global_conf Coverage Results" MODIFIED="1480575355488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../feiniu_interface_automationtest/Setting" />
+    <SUITE FILE_PATH="coverage/fn_work$fn_read_conf.coverage" NAME="fn_read_conf Coverage Results" MODIFIED="1477473282853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fn_work$Python_Console.coverage" NAME="Python Console Coverage Results" MODIFIED="1480669244184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fn_work$forms.coverage" NAME="forms Coverage Results" MODIFIED="1483492112889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog/app" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_assertdemo.coverage" NAME="Unittests in assertdemo Coverage Results" MODIFIED="1481165303933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_shop.coverage" NAME="Unittests in shop Coverage Results" MODIFIED="1482289544154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_testCase__3_.coverage" NAME="Unittests in testCase (3) Coverage Results" MODIFIED="1482289167968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$fn_weekly_task__1_.coverage" NAME="fn_weekly_task (1) Coverage Results" MODIFIED="1480495158649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fn_Utils" />
+    <SUITE FILE_PATH="coverage/fn_work$assertdemo.coverage" NAME="assertdemo Coverage Results" MODIFIED="1481165049627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$fibdemo.coverage" NAME="fibdemo Coverage Results" MODIFIED="1480411220862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$assertDemo.coverage" NAME="assertDemo Coverage Results" MODIFIED="1480675839211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$db_create.coverage" NAME="db_create Coverage Results" MODIFIED="1483507341603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog" />
+    <SUITE FILE_PATH="coverage/fn_work$fn_SFTP.coverage" NAME="fn_SFTP Coverage Results" MODIFIED="1477473007623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fn_work$manage.coverage" NAME="manage Coverage Results" MODIFIED="1483409480914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../myFlaskProject" />
+    <SUITE FILE_PATH="coverage/fn_work$get_fn_order_discount.coverage" NAME="get_fn_order_discount Coverage Results" MODIFIED="1481700261045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FNLibrary" />
+    <SUITE FILE_PATH="coverage/fn_work$unitdemo.coverage" NAME="unitdemo Coverage Results" MODIFIED="1481792326130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittest_test_test2.coverage" NAME="Unittest test.test2 Coverage Results" MODIFIED="1480908428518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$fnClient.coverage" NAME="fnClient Coverage Results" MODIFIED="1481880372440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../feiniu_interface_automationtest/Public" />
+    <SUITE FILE_PATH="coverage/fn_work$fib_demo.coverage" NAME="fib_demo Coverage Results" MODIFIED="1481869460929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$fn_unbundling_partner.coverage" NAME="fn_unbundling_partner Coverage Results" MODIFIED="1477895497214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fn_work$get_guid.coverage" NAME="get_guid Coverage Results" MODIFIED="1477905717780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fn_Utils" />
+    <SUITE FILE_PATH="coverage/fn_work$get_fn_cost.coverage" NAME="get_fn_cost Coverage Results" MODIFIED="1479710779220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FNLibrary" />
+    <SUITE FILE_PATH="coverage/fn_work$basePage.coverage" NAME="basePage Coverage Results" MODIFIED="1482309637138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$get_fn_order_discount_demo.coverage" NAME="get_fn_order_discount_demo Coverage Results" MODIFIED="1481005973909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_testCase__2_.coverage" NAME="Unittests in testCase (2) Coverage Results" MODIFIED="1482289121602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$iteration.coverage" NAME="iteration Coverage Results" MODIFIED="1479786028242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$staticclass.coverage" NAME="staticclass Coverage Results" MODIFIED="1482982965789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$tempfiles.coverage" NAME="tempfiles Coverage Results" MODIFIED="1482472984738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$getData.coverage" NAME="getData Coverage Results" MODIFIED="1482203901975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/fnUtils" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_unitdemo.coverage" NAME="Unittests in unitdemo Coverage Results" MODIFIED="1480907936200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$buyCartApi.coverage" NAME="buyCartApi Coverage Results" MODIFIED="1482285014072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$get_fn_order_detail.coverage" NAME="get_fn_order_detail Coverage Results" MODIFIED="1480992386644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FNLibrary" />
+    <SUITE FILE_PATH="coverage/fn_work$login_fn.coverage" NAME="login_fn Coverage Results" MODIFIED="1480574834712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../feiniu_interface_automationtest/Public" />
+    <SUITE FILE_PATH="coverage/fn_work$fn_batch_register.coverage" NAME="fn_batch_register Coverage Results" MODIFIED="1482908223439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fn_Utils" />
+    <SUITE FILE_PATH="coverage/fn_work$shoppingCart.coverage" NAME="shoppingCart Coverage Results" MODIFIED="1482131883544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../feiniu_interface_automationtest/Public" />
+    <SUITE FILE_PATH="coverage/fn_work$db_upgrade.coverage" NAME="db_upgrade Coverage Results" MODIFIED="1483508652651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog" />
+    <SUITE FILE_PATH="coverage/fn_work$loginFn.coverage" NAME="loginFn Coverage Results" MODIFIED="1482141351498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$groupby_demo.coverage" NAME="groupby.demo Coverage Results" MODIFIED="1479690232691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$config.coverage" NAME="config Coverage Results" MODIFIED="1483602794658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog" />
+    <SUITE FILE_PATH="coverage/fn_work$run.coverage" NAME="run Coverage Results" MODIFIED="1483687628184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog" />
+    <SUITE FILE_PATH="coverage/fn_work$get_fn_beta_guid.coverage" NAME="get_fn_beta_guid Coverage Results" MODIFIED="1479174397937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fn_Utils" />
+    <SUITE FILE_PATH="coverage/fn_work$getTestData.coverage" NAME="getTestData Coverage Results" MODIFIED="1482200073691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/fnUtils" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_testCase__1_.coverage" NAME="Unittests in testCase (1) Coverage Results" MODIFIED="1482288830450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../fnDemo/business" />
+    <SUITE FILE_PATH="coverage/fn_work$fn_weekly_task.coverage" NAME="fn_weekly_task Coverage Results" MODIFIED="1481878300951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fn_Utils" />
+    <SUITE FILE_PATH="coverage/fn_work$study_threding.coverage" NAME="study_threding Coverage Results" MODIFIED="1482910105324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$_contentManger.coverage" NAME="@contentManger Coverage Results" MODIFIED="1480496791489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$socketDemo.coverage" NAME="socketDemo Coverage Results" MODIFIED="1482917251959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$db_migrate.coverage" NAME="db_migrate Coverage Results" MODIFIED="1483508964567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_demo1.coverage" NAME="Unittests in demo1 Coverage Results" MODIFIED="1479288449668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_assertdemo__1_.coverage" NAME="Unittests in assertdemo (1) Coverage Results" MODIFIED="1481165255709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$xmldemo.coverage" NAME="xmldemo Coverage Results" MODIFIED="1481866515324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$instancedemo.coverage" NAME="instancedemo Coverage Results" MODIFIED="1483438120719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$Unittests_in_study_threding.coverage" NAME="Unittests in study_threding Coverage Results" MODIFIED="1483086919828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../study_python" />
+    <SUITE FILE_PATH="coverage/fn_work$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1479288589963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fn_work$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1483684024399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/microblog/app" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="fn_work" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/app/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#74#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_create.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/db_create.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/app/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://D:/microblog/app/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/app/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirenments.txt" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/requirenments.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login_manager.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/flask/Lib/site-packages/flask_login/login_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="166" column="8" lean-forward="false" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/microblog/app/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contain</find>
+      <find>convert_to_str</find>
+      <find>isAlive</find>
+      <find>should_contain</find>
+      <find>append_to_list</find>
+      <find>len</find>
+      <find>aprnpromote</find>
+      <find>PCS_DISCOUNT</find>
+      <find>APRNPROMOTE</find>
+      <find>platformaprnvoucher</find>
+      <find>pcs_discount</find>
+      <find>class</find>
+      <find>log many</find>
+      <find>debu type</find>
+      <find>PRICE_SUBTOTAL</find>
+      <find>_get_type</find>
+      <find>Evaluate</find>
+      <find>get_type</find>
+      <find>tempDict</find>
+      <find>-</find>
+      <find>name</find>
+      <find>is_simple</find>
+      <find>Set Suite Variable</find>
+      <find>set_suite_variable</find>
+      <find>set_global</find>
+      <find>set to glo</find>
+      <find>set_to_global</find>
+      <find>namespace</find>
+      <find>flask_wtf</find>
+      <find>old_model</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>self.driver.</replace>
+      <replace />
+      <replace>test001</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/microblog" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="master" target-remote="fnwork" target-branch="master" />
+    </push-targets>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7d18a9d3-6836-45ad-bb33-504b53792793/console.sql" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/../study_python/demo6.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/data/APIparams.yaml" />
+        <option value="$PROJECT_DIR$/../fnDemo/business/homeOrderList.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/business/shopping.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/business/buyCartApi.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/business/shop.py" />
+        <option value="C:/Python27/Lib/site-packages/RequestsLibrary/FnextendKeywords.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/fnUtils/dataOperation.py" />
+        <option value="$PROJECT_DIR$/FNLibrary/get_fn_order_discount.py" />
+        <option value="$PROJECT_DIR$/../study_python/very important.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/data/testcasedata.yaml" />
+        <option value="$PROJECT_DIR$/../study_python/tempfiles.py" />
+        <option value="$PROJECT_DIR$/fn_zentao_week_task.py" />
+        <option value="$PROJECT_DIR$/fn_SFTP.py" />
+        <option value="$PROJECT_DIR$/debug_tools.py" />
+        <option value="$PROJECT_DIR$/../study_python/socketDemo.py" />
+        <option value="$PROJECT_DIR$/Fn_Utils/fn1_batch_register.py" />
+        <option value="$PROJECT_DIR$/../study_python/staticclass.py" />
+        <option value="$PROJECT_DIR$/../study_python/study_threding.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/basePage.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/A.py" />
+        <option value="$PROJECT_DIR$/../study_python/singlen.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/B.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/AB.py" />
+        <option value="$PROJECT_DIR$/../fnDemo/business/basePage.py" />
+        <option value="$PROJECT_DIR$/../myFlaskProject/.gitignore" />
+        <option value="$PROJECT_DIR$/../myFlaskProject/manage.py" />
+        <option value="$PROJECT_DIR$/../myFlaskProject/requirenments.txt" />
+        <option value="$PROJECT_DIR$/../myFlaskProject/app.py" />
+        <option value="$PROJECT_DIR$/../myFlaskProject/config.py" />
+        <option value="D:/microblog/requirenments.txt" />
+        <option value="D:/microblog/.gitignore" />
+        <option value="D:/microblog/app/form.py" />
+        <option value="D:/microblog/app/templates/index.html" />
+        <option value="D:/microblog/app/templates/login.html" />
+        <option value="D:/microblog-0.3/run.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/../study_python/instancedemo.py" />
+        <option value="D:/microblog/run.py" />
+        <option value="D:/microblog/app/forms.py" />
+        <option value="D:/microblog/db_create.py" />
+        <option value="D:/microblog/db_migrate.py" />
+        <option value="D:/microblog/db_upgrade.py" />
+        <option value="D:/microblog/db_downgrade.py" />
+        <option value="$PROJECT_DIR$/../auto_http_api/DAL/Dhttpbase.py" />
+        <option value="$PROJECT_DIR$/../auto_http_api/model/Mhttpbase.py" />
+        <option value="D:/microblog/config.py" />
+        <option value="D:/microblog/app/__init__.py" />
+        <option value="D:/microblog/app/templates/base.html" />
+        <option value="D:/microblog/app/models.py" />
+        <option value="D:/microblog/app/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers Scope="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource Scope="true" />
+      <autoscrollFromSource Scope="true" ProjectPane="false" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fn_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fn_work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="microblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="D:/microblog-0.5" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Oracle" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="flask_script &#9;null&#9;null&#10;study&#9;FILE&#9;file://D:/coding/study_python/study_threding.py&#10;unit&#9;RUN_CONFIGURATION&#9;unitdemo" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="Oracle&#10;MySQL" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$/../feiniu_interface_automationtest" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../study_python" />
+      <path value="$PROJECT_DIR$/../study_web_dev_project" />
+    </excluded-roots>
+  </component>
+  <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="https://github.com/xie0723/myFlaskProject.git" />
+      <recent name="http://buy.beta1.fn/cartApi/clearAll" />
+      <recent name="http://www.beta1.fn/" />
+      <recent name="http://www.baidu.com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coding\fn_work" />
+      <recent name="D:\microblog" />
+      <recent name="D:\coding\" />
+      <recent name="D:\coding\fnDemo" />
+      <recent name="C:\Python27\Lib\site-packages\RequestsLibrary" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coding\fnDemo\settings" />
+      <recent name="D:\coding\fnDemo\testcase" />
+      <recent name="D:\coding\fnDemo\data" />
+      <recent name="D:\coding\fnDemo\business" />
+      <recent name="D:\coding\fn_work\FNLibrary" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1486089124000" />
+                <option name="domain" value="beta1.fn" />
+                <option name="name" value="cart_token" />
+                <option name="path" value="/" />
+                <option name="value" value="530b52b1eaebdc93bbde695f3ec0e670_1480041124103" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://erp-api.beta1.fn" />
+          <option name="urlPath" value="cs_order_query_api/query_list" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="data" />
+                <option name="value" value="{&quot;OG_SEQ&quot;:&quot;201611CO29099082&quot;,&quot;CONTAIN_MALL&quot;:&quot;1&quot;}" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="STK_COUNTRY" />
+                <option name="value" value="cn" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="STK_COUNTRY_REGION" />
+                <option name="value" value="sh" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1486089124000" />
+                <option name="domain" value="beta1.fn" />
+                <option name="name" value="cart_token" />
+                <option name="path" value="/" />
+                <option name="value" value="530b52b1eaebdc93bbde695f3ec0e670_1480041124103" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://passport.beta1.fn" />
+          <option name="urlPath" value="/gateway/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1486089124000" />
+                <option name="domain" value="beta1.fn" />
+                <option name="name" value="cart_token" />
+                <option name="path" value="/" />
+                <option name="value" value="530b52b1eaebdc93bbde695f3ec0e670_1480041124103" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://passport.beta1.fn" />
+          <option name="urlPath" value="/gateway/login" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://buy.beta1.fn" />
+          <option name="urlPath" value="/cartApi/clearAll" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://buy.beta1.fn" />
+          <option name="urlPath" value="/cartApi/clearAll" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://www.beta1.fn" />
+          <option name="urlPath" value="/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration default="false" name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/microblog/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="microblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/microblog/app/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db_migrate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/microblog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="microblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/microblog/db_migrate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="config" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/microblog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="microblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/microblog/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/microblog/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="microblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/microblog/app/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/microblog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="microblog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/microblog/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.siberika.idea.pascal.run.PascalConfigurationType" factoryName="Pascal executable">
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.AppEngineServer" factoryName="App Engine server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="feiniu_interface_automationtest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="host" value="127.0.0.1" />
+      <option name="browserUrl" value="" />
+      <option name="additionalOptions" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="fn_work" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="false" />
+      <option name="ADD_SOURCE_ROOTS" value="false" />
+      <module name="study_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="fn_work" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.__init__" />
+      <item index="1" class="java.lang.String" itemvalue="Python.db_migrate" />
+      <item index="2" class="java.lang.String" itemvalue="Python.config" />
+      <item index="3" class="java.lang.String" itemvalue="Python.views" />
+      <item index="4" class="java.lang.String" itemvalue="Python.run" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.views" />
+        <item index="1" class="java.lang.String" itemvalue="Python.run" />
+        <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="3" class="java.lang.String" itemvalue="Python.config" />
+        <item index="4" class="java.lang.String" itemvalue="Python.db_migrate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="de8d1157-9773-4a21-a52f-435d71601998" name="Default" comment="" />
       <created>1475118135354</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475118135354</updated>
     </task>
+    <task id="LOCAL-00008" summary="增加oracle 数据库等相关操作">
+      <created>1478065986364</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1478065986364</updated>
+    </task>
+    <task id="LOCAL-00009" summary="增加获取成本的方法">
+      <created>1478165940332</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1478165940332</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1478169737637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1478169737637</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1478169757931</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1478169757931</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <created>1478226937100</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1478226937100</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1478239453318</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1478239453318</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1478241598517</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1478241598517</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1478253077592</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1478253077592</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1478254056936</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1478254056936</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <created>1478584496546</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1478584496546</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1478596180600</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1478596180600</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1478850971838</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1478850971838</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1479090315315</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1479090315315</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update">
+      <created>1479091062221</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1479091062221</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update">
+      <created>1479202022819</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1479202022819</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1479202033395</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1479202033395</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update">
+      <created>1479460748194</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1479460748194</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update">
+      <created>1479715388203</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1479715388203</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update">
+      <created>1479715398134</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1479715398134</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update">
+      <created>1479715408309</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1479715408309</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update">
+      <created>1480054925999</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1480054925999</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update">
+      <created>1480307477662</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1480307477662</updated>
+    </task>
+    <task id="LOCAL-00030" summary="人物简介 html">
+      <created>1480307768178</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1480307768178</updated>
+    </task>
+    <task id="LOCAL-00031" summary="个人简介 html">
+      <created>1480324869762</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1480324869762</updated>
+    </task>
+    <task id="LOCAL-00032" summary="人物简介 html">
+      <created>1480327133186</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1480327133186</updated>
+    </task>
+    <task id="LOCAL-00033" summary="优化代码→结构化">
+      <created>1480401468441</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1480401468441</updated>
+    </task>
+    <task id="LOCAL-00034" summary="增加utils 工具包">
+      <created>1480562430954</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1480562430954</updated>
+    </task>
+    <task id="LOCAL-00035" summary="优化代码">
+      <created>1480647280023</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1480647280024</updated>
+    </task>
+    <task id="LOCAL-00036" summary="增加获取自营+商城分摊">
+      <created>1480675759644</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1480675759644</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update">
+      <created>1480931779990</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1480931779990</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update">
+      <created>1480992732571</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1480992732571</updated>
+    </task>
+    <task id="LOCAL-00039" summary="人物简介 html">
+      <created>1480992796977</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1480992796977</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update">
+      <created>1480992863108</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1480992863108</updated>
+    </task>
+    <task id="LOCAL-00041" summary="封装一个装饰器，用于缓存首次调用订单接口时返还的查询结果。">
+      <created>1481006368898</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1481006368898</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update&#10;">
+      <created>1481017894097</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1481017894097</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update">
+      <created>1481075599456</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1481075599456</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update">
+      <created>1481607879643</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1481607879643</updated>
+    </task>
+    <task id="LOCAL-00045" summary="update">
+      <created>1481768150993</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1481768150993</updated>
+    </task>
+    <task id="LOCAL-00046" summary="update">
+      <created>1481768172134</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1481768172134</updated>
+    </task>
+    <task id="LOCAL-00047" summary="update">
+      <created>1481876597864</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1481876597864</updated>
+    </task>
+    <task id="LOCAL-00048" summary="update">
+      <created>1481876621703</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1481876621703</updated>
+    </task>
+    <task id="LOCAL-00049" summary="beta2 批量注册脚本">
+      <created>1481876639492</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1481876639492</updated>
+    </task>
+    <task id="LOCAL-00050" summary="增加readme">
+      <created>1483435244249</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1483435244249</updated>
+    </task>
+    <task id="LOCAL-00051" summary="update">
+      <created>1483435307196</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1483435307196</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update">
+      <created>1483438451666</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1483438451666</updated>
+    </task>
+    <task id="LOCAL-00053" summary="添加readme">
+      <created>1483438563176</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1483438563176</updated>
+    </task>
+    <task id="LOCAL-00054" summary="人物简介 html">
+      <created>1483438590059</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1483438590059</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update">
+      <created>1483438620181</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1483438620181</updated>
+    </task>
+    <task id="LOCAL-00056" summary="人物简介 html">
+      <created>1483438668518</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1483438668518</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_shop - 2016.12.21 at 11h 04m 09s.xml">
+      <configuration name="Unittests in shop" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_shop - 2016.12.21 at 11h 05m 42s.xml">
+      <configuration name="Unittests in shop" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_shop - 2016.12.21 at 11h 05m 43s.xml">
+      <configuration name="Unittests in shop" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_shop - 2016.12.21 at 11h 05m 44s.xml">
+      <configuration name="Unittests in shop" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_study_threding - 2016.12.28 at 15h 27m 25s.xml">
+      <configuration name="Unittests in study_threding" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_study_threding - 2016.12.28 at 15h 28m 16s.xml">
+      <configuration name="Unittests in study_threding" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_study_threding - 2016.12.29 at 15h 57m 21s.xml">
+      <configuration name="Unittests in study_threding" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_study_threding - 2016.12.30 at 16h 35m 23s.xml">
+      <configuration name="Unittests in study_threding" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testCase_(3) - 2016.12.21 at 10h 59m 28s.xml">
+      <configuration name="Unittests in testCase (3)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_testCase_(4) - 2016.12.21 at 11h 01m 17s.xml">
+      <configuration name="Unittests in testCase (4)" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13006397" sideWeight="0.57529795" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32394367" sideWeight="0.5021322" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33358896" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37486458" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38113007" sideWeight="0.496208" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45287108" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16471216" sideWeight="0.42470205" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4216418" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="0" y="22" width="1920" height="1018" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.503792" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48454157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Api Debugger" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="0" y="22" width="1920" height="1018" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49944875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38746223" sideWeight="0.496208" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.503792" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33441558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48454157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Api Debugger" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15936556" sideWeight="0.57529795" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33386752" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32855567" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16471216" sideWeight="0.42470205" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5075269" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="add fn_utils  作为平时飞牛工作时的工具集&#10;" />
+    <MESSAGE value="update .gitignore &#10;" />
+    <MESSAGE value="增加oracle 数据库等相关操作" />
+    <MESSAGE value="增加获取成本的方法" />
+    <MESSAGE value="个人简介 html" />
+    <MESSAGE value="优化代码→结构化" />
+    <MESSAGE value="增加utils 工具包" />
+    <MESSAGE value="update global_conf.py" />
+    <MESSAGE value="优化代码" />
+    <MESSAGE value="增加获取自营+商城分摊" />
+    <MESSAGE value="封装一个装饰器，用于缓存首次调用订单接口时返还的查询结果。" />
+    <MESSAGE value="update&#10;" />
+    <MESSAGE value="beta2 批量注册脚本" />
+    <MESSAGE value="增加readme" />
+    <MESSAGE value="添加readme" />
+    <MESSAGE value="update" />
+    <MESSAGE value="人物简介 html" />
+    <option name="LAST_COMMIT_MESSAGE" value="人物简介 html" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../auto_http_api/img/htmlreport.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="127" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/BLL/BgetEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/BLL/Bhttpbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/BLL/Bresult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/BLL/BresultDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/BLL/BsendEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/COMMON/BaseGoals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/COMMON/check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/COMMON/http_param.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/COMMON/OperateFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/COMMON/operateXML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/COMMON/strTo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/DAL/DexcelReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/DAL/DgetEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/DAL/Dhttpbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#52#67#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/DAL/Dresult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/DAL/DresultDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/DAL/DsendMail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/img/htmlreport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/img/pyh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/model/Memail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/model/Mhttpbase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/model/Mresult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/model/MresultDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../auto_http_api/runner_m.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FNLibrary/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FNLibrary/get_fn_cost.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#75#91#0" expanded="false" />
+            <marker date="1481163665889" expanded="true" signature="841:913" ph="SELECT ORDER... ORDER_GROUP" />
+            <marker date="1481163665889" expanded="true" signature="1074:1132" ph="SELECT * FRO... ORDER_LIST" />
+            <marker date="1481163665889" expanded="true" signature="1299:1360" ph="SELECT COST ORDER_LIST" />
+            <marker date="1481163665889" expanded="true" signature="1527:1588" ph="SELECT KIND ORDER_LIST" />
+            <marker date="1481163665889" expanded="true" signature="1766:1829" ph="SELECT ITNAM... ORDER_LIST" />
+            <marker date="1481163665889" expanded="true" signature="2011:2077" ph="SELECT SELL_... ORDER_LIST" />
+            <marker date="1481163665889" expanded="true" signature="2259:2323" ph="SELECT SELL_... ORDER_LIST" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FNLibrary/get_fn_order_discount.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FNLibrary/version.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fn_Utils/fn1_batch_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fn_Utils/fn2_batch_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fn_Utils/fn_unbundling_partner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fn_Utils/fn_weekly_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fn_Utils/get_fn_beta_guid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_new_RF_test_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto_new_test_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#104#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fn_read_conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#83#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fn_SFTP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#172#181#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fn_zentao_week_task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case_relation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/flask/Lib/site-packages/flask_login/login_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="166" column="8" lean-forward="false" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/requirenments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#74#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/db_create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/microblog/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

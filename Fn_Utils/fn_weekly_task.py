@@ -71,12 +71,12 @@ class fnWeekTask(object):
 
 	# 输入预计开始时间
 	def input_except_start_time(self):
-		self.driver.find_element(By.ID, 'estStarted').send_keys('2016-11-28')
+		self.driver.find_element(By.ID, 'estStarted').send_keys('2016-12-12')
 		return self
 
 	# 输入截止日期
 	def input_except_end_time(self):
-		self.driver.find_element(By.ID, 'deadline').send_keys('2016-12-2')
+		self.driver.find_element(By.ID, 'deadline').send_keys('2016-12-6')
 		return self
 
 	# 保存

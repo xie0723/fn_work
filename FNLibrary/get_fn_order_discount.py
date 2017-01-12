@@ -152,9 +152,6 @@ class fnDiscount(object):
 		# 任一商品分摊断言
 		for i, item in enumerate(kwargs['ID']):
 			# 取出kwargs 中的商品分摊金额与 计算的商品分摊金额进行对比
-			# print (datas[ID[i]])
-			# print((datas[ID[i]] - 0.01))
-			# print((datas[ID[i]] + 0.01))
 			if item != str(datas[ID[i]]):
 				print('商品{0}的分摊金额有误：{1}'.format(ID[i], datas[ID[i]]))
 			else:

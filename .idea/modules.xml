@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../auto_http_api/.idea/auto_http34_test.iml" filepath="$PROJECT_DIR$/../auto_http_api/.idea/auto_http34_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/feiniu_interface_automationtest.iml" filepath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/feiniu_interface_automationtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fnDemo/.idea/fnDemo.iml" filepath="$PROJECT_DIR$/../fnDemo/.idea/fnDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/fn_api_autotest.iml" filepath="$PROJECT_DIR$/../feiniu_interface_automationtest/.idea/fn_api_autotest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/fn_work.iml" filepath="$PROJECT_DIR$/.idea/fn_work.iml" />
+      <module fileurl="file://D:/microblog/.idea/microblog.iml" filepath="D:/microblog/.idea/microblog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myFlaskProject/.idea/myFlaskProject.iml" filepath="$PROJECT_DIR$/../myFlaskProject/.idea/myFlaskProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../study_python/.idea/study_python.iml" filepath="$PROJECT_DIR$/../study_python/.idea/study_python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../study_web_dev_project/.idea/study_web_dev_project.iml" filepath="$PROJECT_DIR$/../study_web_dev_project/.idea/study_web_dev_project.iml" />
     </modules>
   </component>
 </project>

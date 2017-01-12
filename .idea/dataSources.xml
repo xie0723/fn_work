@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Oracle - @dbcord01.beta1.fn" read-only="true" uuid="8c68f86d-65cf-474d-9f35-88b23763b057">
+    <data-source source="LOCAL" name="Oracle - @dbcord01.beta1.fn [2]" read-only="true" uuid="7d18a9d3-6836-45ad-bb33-504b53792793">
       <driver-ref>oracle</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@//dbcord01.beta1.fn:1521/CORD</jdbc-url>
+      <default-dialect>Oracle</default-dialect>
     </data-source>
   </component>
 </project>

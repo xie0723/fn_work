@@ -24,11 +24,11 @@ register_url = 'http://member-api.beta1.fn/account_api/batchRegister'
 # 获取注册用户名
 def get_username():
 	while True:
-		username = str(raw_input(u"请输入你的注册用户名 ==>"))
+		username = str(raw_input("please input you username(mall phone or number+str):"))
 		if len(username) > 6:
 			break
 		else:
-			print ('账号长度需大于6位，请重新输入')
+			print ('username must > 6 ')
 			continue
 	return username
 
@@ -36,12 +36,12 @@ def get_username():
 # 获取注册密码
 def get_password():
 	while True:
-		password = str(raw_input("请输入注册密码:"))
+		password = str(raw_input("please input you password:"))
 		if len(password) < 6:
-			print (u'密码长度只能在6-16位字符之间，请重新输入')
+			print('password in 6-16 please reinput ')
 			continue
 		elif password.isdigit() or password.isalpha():
-			print (u"密码不能全部为数字或字母，请重新输入")
+			print ('passwords not be all numbers or letters, please re-enter:')
 			continue
 		else:
 			break
@@ -51,7 +51,7 @@ def get_password():
 
 # 获取注册账号数量
 def get_accounts_number():
-	return int(input('请输入需要的账号数量：'))
+	return int(input('please input the number of users:'))
 
 
 # 获取电脑IP地址
@@ -90,4 +90,6 @@ def batch_register():
 
 
 if __name__ == '__main__':
+	print(u'注册时，只需要输入一个账号的起始名，之后会在名字后面加上数字标记，例如输入tester000,注册成功后的账号是tester0001,tester0002........')
 	batch_register()
+	raw_input(u'按任意键退出')
