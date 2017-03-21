@@ -22,7 +22,7 @@ class fnWeekTask(object):
 	# 登录
 	def login_fn(self):
 		self.driver.find_element(By.ID, 'account').send_keys('wangming.xie')
-		self.driver.find_element(By.NAME, 'password').send_keys('Xie151008')
+		self.driver.find_element(By.NAME, 'password').send_keys('Xie151007')
 		self.driver.find_element(By.ID, 'submit').click()
 		return self
 
@@ -71,12 +71,12 @@ class fnWeekTask(object):
 
 	# 输入预计开始时间
 	def input_except_start_time(self):
-		self.driver.find_element(By.ID, 'estStarted').send_keys('2016-12-12')
+		self.driver.find_element(By.ID, 'estStarted').send_keys('2017-01-16')
 		return self
 
 	# 输入截止日期
 	def input_except_end_time(self):
-		self.driver.find_element(By.ID, 'deadline').send_keys('2016-12-6')
+		self.driver.find_element(By.ID, 'deadline').send_keys('2017-01-20')
 		return self
 
 	# 保存

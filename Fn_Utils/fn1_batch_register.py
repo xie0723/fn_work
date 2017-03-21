@@ -90,6 +90,6 @@ def batch_register():
 
 
 if __name__ == '__main__':
-	print(u'注册时，只需要输入一个账号的起始名，之后会在名字后面加上数字标记，例如输入tester000,注册成功后的账号是tester0001,tester0002........')
+	print(u"注册时，只需要输入一个账号的起始名，之后会在名字后面加上数字标记'\n'例如输入tester000,注册成功后的账号是tester0001,tester0002........")
 	batch_register()
 	raw_input(u'按任意键退出')
