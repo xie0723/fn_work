@@ -115,9 +115,9 @@ class fnSFTP(object):
 
 if __name__ == '__main__':
 	fn_sftp = fnSFTP()
-	# fn_sftp.login_fn_sftp()
+	fn_sftp.login_fn_sftp()
 	# 下载
-	fn_sftp.fn_down_file('1.txt', '1.txt')
+	# fn_sftp.fn_down_file('1.txt', '1.txt')
 	# 上传
 	# fn_sftp.fn_upload_file('xwm_test111.txt', 'xwm_test111.txt')
 	# 批量下载

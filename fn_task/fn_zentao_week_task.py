@@ -35,12 +35,12 @@ class zentaoWeekTask(object):
 		content_disposition = {
 			'Content-Disposition: form-data; name="after"': 'toTaskList',
 			'Content-Disposition: form-data; name="assignedTo[]"': 'wangming.xie',
-			'Content-Disposition: form-data; name="deadline"': '2016-09-23',
+			'Content-Disposition: form-data; name="deadline"': '2017-01-09',
 			'Content-Disposition: form-data; name="desc"': '<div>&nbsp;客服三期测试&nbsp;</div>',
 			'Content-Disposition: form-data; name="estimate"': 40,
-			'Content-Disposition: form-data; name="estStarted"': '2016-09-19',
+			'Content-Disposition: form-data; name="estStarted"': '2017-01-13',
 			'Content-Disposition: form-data; name="module"': 0,
-			'Content-Disposition: form-data; name="name"': '客服三期测试',
+			'Content-Disposition: form-data; name="name"': '每周测试任务',
 			'Content-Disposition: form-data; name="pri"': 1,
 			'Content-Disposition: form-data; name="type"': 'test',
 		}
@@ -50,7 +50,7 @@ class zentaoWeekTask(object):
 		self.session.get('http://zentao.fn.com/index.php?m=project&f=browse&projectID=967&tab=task',
 		                 allow_redirects=True)
 		self.session.get('http://zentao.fn.com/index.php?m=project&f=task&projectID=967')
-		print (resp.text)
+		# print (resp.text)
 
 
 if __name__ == '__main__':
