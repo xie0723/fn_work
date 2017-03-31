@@ -12,6 +12,7 @@ from datetime import datetime
 def get_now_time():
     return datetime.now().strftime("%Y-%m-%d_%H:%M:%S")
 
+
 # 高亮元素and截图
 def highlight(element, element_name=None, debug=True):
     """
@@ -22,7 +23,8 @@ def highlight(element, element_name=None, debug=True):
     """
     # 执行js 高亮元素
     def apply_style():
-        driver.execute_script("arguments[0].style.border='4px solid red'", element)
+        js = "arguments[0].style.border='4px solid red'"
+        driver.execute_script(js, element)
 
     # 截图
     def screen_shot(screen_name):
@@ -43,12 +45,12 @@ def highlight(element, element_name=None, debug=True):
 def highlights(func):
 
     def apply_style(element):
-        driver.execute_script("arguments[0].style.border='6px solid red'", element)
+        js = "arguments[0].style.border='4px solid red'"
+        driver.execute_script(js, element)
 
     @wraps(func)
     def wrapper(self, *args, **kwargs):
         element = func(self, *args, **kwargs)
-
         apply_style(element)
         return element
 
